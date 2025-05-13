@@ -133,7 +133,13 @@
 
   aside .toggle .logo{
     display: flex;
+    align-items: center;
     gap: 0.5rem;
+  }
+
+    aside .toggle .logo h2{
+    font-size: 13px;
+    cursor: pointer;
   }
 
   aside .toggle .logo img{
