@@ -13,7 +13,6 @@ var firebaseConfig = {
   
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-console.log("Firebase initialized:", firebase.apps.length > 0);
 
 $(document).ready(function(){
 
